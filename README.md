@@ -7,6 +7,8 @@ The computed values are strings alternating between consonants and vowels. One p
 
 Example outputs of the current implementation are `Mezimjhjbu`, `Xabjfo` or `La`.
 
+[![Build Status](https://travis-ci.org/fxnn/readable-hash.svg?branch=master)](https://travis-ci.org/fxnn/readable-hash)
+
 
 Usage
 -----
