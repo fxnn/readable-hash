@@ -8,6 +8,17 @@ The computed values are strings alternating between consonants and vowels. One p
 Example outputs of the current implementation are `Mezimjhjbu`, `Xabjfo` or `La`.
 
 
+Usage
+-----
+
+Either use the provided [static void main](src/main/java/de/fxnn/readablehash/ReadableHashCliApplication.java), or use the [ReadableHash-class](src/main/java/de/fxnn/readablehash/ReadableHash.java):
+
+```java
+ReadableHash readableHash = new ReadableHash();
+String myHash = readableHash.hashAsReadableString("Hello, World!");
+String myOtherHash = readableHash.toReadableString(1234L);
+```
+
 License (MIT)
 -------------
 
