@@ -1,7 +1,7 @@
 Readable Hash
 =============
 
-Implements a hash function that computes human-readable output.
+Implements a hash function that computes human-readable output. Built with plain Java and Maven.
 
 The computed values are strings alternating between consonants and vowels. One possible usecase is the pseudonymization of data.
 
@@ -24,6 +24,13 @@ assertEquals("Cjtaqafeyu", myHash);
 String myOtherHash = readableHash.toReadableString(1234L);
 assertEquals("Subise", myOtherHash);
 ```
+
+
+Related Work
+------------
+
+* [humanhash](https://github.com/zacharyvoase/humanhash) by zacharyvoase is a Python program that turns digests into a series of words from the english language, so that it can be "shouted down a hallway".
+
 
 License (MIT)
 -------------
