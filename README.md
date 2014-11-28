@@ -17,8 +17,12 @@ Either use the provided [static void main](src/main/java/de/fxnn/readablehash/Re
 
 ```java
 ReadableHash readableHash = new ReadableHash();
+
 String myHash = readableHash.hashAsReadableString("Hello, World!");
+assertEquals("Cjtaqafeyu", myHash);
+
 String myOtherHash = readableHash.toReadableString(1234L);
+assertEquals("Subise", myOtherHash);
 ```
 
 License (MIT)

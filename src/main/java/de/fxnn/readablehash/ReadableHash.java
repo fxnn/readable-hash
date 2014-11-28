@@ -20,8 +20,12 @@ public class ReadableHash {
 
   @Nullable
   public String hashAsReadableString(@Nullable String input) {
-    return toReadableString(hashFunctions.computeSha256AsLong(input), MIN_SYLLABLE_COUNT_PER_WORD,
-        MAX_SYLLABLE_COUNT_PER_WORD);
+    return toReadableString(hashFunctions.computeSha256AsLong(input));
+  }
+
+  @Nullable
+  public String toReadableString(@Nullable Long value) {
+    return toReadableString(value, MIN_SYLLABLE_COUNT_PER_WORD, MAX_SYLLABLE_COUNT_PER_WORD);
   }
 
   @Nullable
