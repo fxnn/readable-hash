@@ -8,9 +8,9 @@ import static java.lang.Character.toLowerCase;
 
 public class ReadableHash {
 
-  static final char[] CONSONANTS = "BCDFGHKLMNPQRSTVWXYZ".toCharArray();
+  static final char[] CONSONANTS = "BCDFGHJKLMNPQRSTVWXZ".toCharArray();
 
-  static final char[] VOWELS = "AEIJOU".toCharArray();
+  static final char[] VOWELS = "AEIOUY".toCharArray();
 
   static final int MIN_SYLLABLE_COUNT_PER_WORD = 1;
 
